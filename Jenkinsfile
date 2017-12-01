@@ -3,7 +3,6 @@ pipeline {
     node {
       label 'worker'
     }
-    
   }
   stages {
     stage('Init') {
